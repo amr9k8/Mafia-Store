@@ -1,0 +1,390 @@
+body{
+    margin: 0px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    background-color:  rgb(253, 253, 253);
+    /* overflow: hidden; */
+    margin:auto ;
+    height: 275px;
+    background-image: url(../images/bg5.jpg);
+    background-size: cover;
+    margin-top: -15px;
+}
+
+.logo {
+
+    margin: 15px;
+    width: 330px;
+    height: 100px;
+    
+   }
+   .logo img
+   {
+       height: 100%;
+       width: 100%;
+   }
+.search
+{
+    position: absolute;
+    left:420px;
+    top: 45px;
+    width: 700px;
+    height: 45px;
+    
+}
+.search input
+{
+
+    width: 55%;
+    height: 55%;
+    font-size: 16px;
+    padding: 10px 150px 10px 25px ;    
+    border-radius: 15px;
+    border-color: rgba(6, 6, 6, 0.61);
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.search button
+{
+    
+    border: none;
+    padding: 10px 15px 10px 15px ;    
+   
+    background-color: rgba(199, 10, 10, 0.61);
+    color: white;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search button:hover
+{
+    background-color:#f11212d6;
+}
+.blood-icon
+{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top:-105px ;
+    margin-left: 250px;
+    background-image: url(../images/blood2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 190px 190px;
+}
+
+.clean
+{
+    clear: both;
+}
+
+.links
+{
+    width: 80%;
+    height: 35px;
+    margin: auto;
+    background-color: rgba(199, 10, 10, 0.61);
+    text-align: left;    
+    position: relative;
+    margin-top: -34px;
+
+}
+.links a
+{
+margin-left: 90px;
+text-decoration: none;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(224, 224, 224);
+padding: 10px;
+font-size: 22px;
+}
+.links a:hover
+{
+    color: white;
+}
+
+.dropdown
+{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.83);
+    left: 180px ;
+    position: absolute;
+    top: 0px;  
+    cursor: pointer;
+    width: 150px;
+    height: 97%;   
+}
+
+.dropdown:hover
+{
+ color: white;
+ background-color:  rgba(19, 19, 19, 0.678);
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+    
+}
+.dropdown-content
+{   
+
+    float: left;
+    background-color: rgba(16, 16, 16, 0.678);
+    width: 150px;
+    height: 140px;
+    margin-top: 4px;    
+    text-align: left;
+    display: none;
+    
+}
+
+.dropdown-content a,li
+{   
+    list-style: none;
+    text-align: left;
+    margin-left: -10px;
+    width: 100%;
+    padding:3px;
+    font-size: 18px;
+}
+.dropdown-content a
+{   
+    
+    width: 100%;
+   
+}
+.dropdown-content a:hover
+{   
+    background-color: rgba(231, 15, 15, 0.85);
+}
+
+.sec1
+{
+    margin-top: 2px;
+    margin-bottom: 13px;
+    width: 100%;
+    height:300px;
+}
+.sec1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.sec2
+{
+    width: 91%;
+    height:320px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.sec2 img
+{
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+.sec2 img:hover
+{
+    transition: 0.5s;transform: scale(1.03,1.03);
+    opacity: 1;
+}
+
+.sec3
+{
+    width: 97%;
+    height:220px;
+    margin:auto;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.sec3 img
+{
+    height: 100%;
+    width: 93%;
+    opacity: 0.9;
+    
+}
+.sec3 img:hover
+{
+    transition: 0.5s;transform: scale(1.03,1.03);
+    opacity: 1;
+}
+
+.sec4 h2
+{
+    text-align: center;
+    font-weight: 900;
+    font-size:25px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.sec4 p
+{
+    text-align: center;
+    color: rgb(125, 126, 128);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.sec5
+{
+    margin: auto;
+    
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sec5 a
+{
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec5 strike
+{
+    color: rgb(117, 117, 117);
+}
+.sec5 p
+{
+    color: rgb(1, 173, 15);
+}
+.weapons img
+{   
+    margin-top: 40px;
+   margin-left: 30px;
+   height: 40px;
+   width:190px;
+}
+
+.weapons
+{
+
+    width: 24%;
+    height:100%;
+    text-align: center;
+
+}
+.weapons-1
+{
+    width: 24%;
+    height:100%;
+}
+.weapons-1 img
+{
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+
+.content
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 70%;
+}
+
+.content-1
+{
+    text-align: center;
+    margin-top: -5px;
+    width: 100%;
+    height: 70%;
+}
+
+.paragraph
+{
+    
+    width: 80%;
+    margin: auto;
+    height: 310px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 3px rgba(163, 159, 159, 0.349);
+    z-index: 5;
+}
+.paragraph h2
+{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+}
+.paragraph p
+{
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+.image
+{
+    
+    width: 100%;
+    height: 30%;
+    margin-top: 50px;
+}
+.image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.footer
+{
+    margin-top: -70px;
+    background-color:rgb(88, 8, 8);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    
+    
+}
+.footer-data
+{
+    margin: auto;
+    margin-top: 130px;
+    width: 19%;
+    height: 70%;
+    color: rgba(255, 255, 255);
+  
+}
+.footer-data ul li
+{
+    list-style: none;
+    text-align: left;
+
+}
+.footer-data a
+{
+    text-decoration: none;
+    color: rgb(241, 239, 239);
+}
+.footer-data a:hover
+{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.footer-data p
+{
+    color: rgb(250, 250, 250);
+}
+

@@ -1,0 +1,84 @@
+#register
+{
+    text-align: center;
+    
+}
+#register input
+{
+    margin: auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 35px;
+    padding-left: 5px;
+}
+#int2
+{
+    text-align: center;
+    width: 400px;
+    height: 100%;
+    
+    
+    background-color: white;
+     border-radius: 0px 4px 4px 0px;
+}
+#out
+{
+    height: 650px;
+    width: 800px;
+    margin: auto;
+    border-radius: 4px;
+     display: flex;
+    box-shadow: 3px 5px 5px;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+#int1
+{
+     width: 400px;
+    height: 100%;
+    background-color:rgb(88, 8, 8);
+     border-radius: 4px 0px 0px 4px;
+}
+.head
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.but
+{
+    text-align: center;
+    margin-top: 225px;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+   font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.but a{
+    text-decoration: none;
+    color: rgb(88, 8, 8);
+
+}
+.para
+{
+    margin-left: 15px;
+    
+    color: white;
+}
+.para label
+{
+    font-size: 15px;
+}
+.pfor
+{
+    color: red;
+    font-size: 13px;
+    margin-top: 0;
+}

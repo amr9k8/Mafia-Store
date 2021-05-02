@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    background-color:  rgb(253, 253, 253);
+    /* overflow: hidden; */
+    margin:auto ;
+    height: 275px;
+    background-image: url(../images/bg5.jpg);
+    background-size: cover;
+    margin-top: -15px;
+}
+
+.logo {
+
+    margin: 15px;
+    width: 330px;
+    height: 100px;
+    
+   }
+   .logo img
+   {
+       height: 100%;
+       width: 100%;
+   }
+.search
+{
+    position: absolute;
+    left:420px;
+    top: 45px;
+    width: 700px;
+    height: 45px;
+    
+}
+.search input
+{
+
+    width: 55%;
+    height: 55%;
+    font-size: 16px;
+    padding: 10px 150px 10px 25px ;    
+    border-radius: 15px;
+    border-color: rgba(6, 6, 6, 0.61);
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.search button
+{
+    
+    border: none;
+    padding: 10px 15px 10px 15px ;    
+   
+    background-color: rgba(199, 10, 10, 0.61);
+    color: white;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search button:hover
+{
+    background-color:#f11212d6;
+}
+.blood-icon
+{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top:-105px ;
+    margin-left: 250px;
+    background-image: url(../images/blood2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 190px 190px;
+}
+
+.clean
+{
+    clear: both;
+}
+
+.links
+{
+    width: 80%;
+    height: 35px;
+    margin: auto;
+    background-color: rgba(199, 10, 10, 0.61);
+    text-align: left;    
+    position: relative;
+    margin-top: -34px;
+
+}
+.links a
+{
+margin-left: 90px;
+text-decoration: none;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(224, 224, 224);
+padding: 10px;
+font-size: 22px;
+}
+.links a:hover
+{
+    color: white;
+}
+
+.dropdown
+{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.83);
+    left: 180px ;
+    position: absolute;
+    top: 0px;  
+    cursor: pointer;
+    width: 150px;
+    height: 97%;   
+}
+
+.dropdown:hover
+{
+ color: white;
+ background-color:  rgba(19, 19, 19, 0.678);
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+    
+}
+.dropdown-content
+{   
+
+    float: left;
+    background-color: rgba(16, 16, 16, 0.678);
+    width: 150px;
+    height: 140px;
+    margin-top: 4px;    
+    text-align: left;
+    display: none;
+    
+}
+
+.dropdown-content a,li
+{   
+    list-style: none;
+    text-align: left;
+    margin-left: -10px;
+    width: 100%;
+    padding:3px;
+    font-size: 18px;
+}
+.dropdown-content a
+{   
+    
+    width: 100%;
+   
+}
+.dropdown-content a:hover
+{   
+    background-color: rgba(231, 15, 15, 0.85);
+}
+
+.sec1
+{
+    margin-top: 2px;
+    margin-bottom: 13px;
+    width: 100%;
+    height:300px;
+}
+.sec1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.container {
+    border: 4px solid black;
+    background-color: rgb(26, 20, 20);
+    width: 90%;
+    height: 1600px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+.product {
+    border: 2px solid rgb(2, 1, 1);
+    width: 60%;
+    height: 22%;
+    margin: auto;
+}
+
+.product h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.info {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: -50px;
+    justify-content: space-between;
+}
+
+.price {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(16, 255, 0);
+    margin-top: 6px;
+    font-size: 20px;
+    width: 40%;
+}
+
+.Available {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 6px 6px 10px 10px;
+    font-size: 20px;
+    width: 40%;
+}
+
+.Unavailable {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(182, 8, 8);
+    border-radius: 20px;
+    height: 20px;
+    padding: 6px 6px 10px 10px;
+    font-size: 20px;
+    width: 40%;
+}
+
+.photo {
+    width: 40%;
+    height: 35%;
+    margin: 20px;
+    margin-top: 8px;
+    float: left;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.flavor {
+    border: 2px solid rgb(0, 0, 0);
+    width: 50%;
+    height: 70%;
+    margin-top: 5px;
+    margin-left: 47%;
+}
+
+.flavor p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: rgb(88, 8, 8);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-data {
+    margin: auto;
+    margin-top: 130px;
+    width: 19%;
+    height: 70%;
+    color: rgba(255, 255, 255);
+}
+
+.footer-data ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.footer-data a {
+    text-decoration: none;
+    color: rgb(241, 239, 239);
+}
+
+.footer-data a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.footer-data p {
+    color: rgb(250, 250, 250);
+}
